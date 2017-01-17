@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block body %}
+    <h2>Owner Page</h2>
+    <a href="{{ url_for('create')}}">Create new staff accounts.</a>
+
+    <!-- display events -->
+   <!--{% for event in events %}
+        <h2>{{ event.id }}</h2>
+        <h3>{{ event.date }}</h3>
+        <h3>Requested by {{ event.by }}</h3>
+        {% if event.num == 0 %}
+            <h3>No employees are scheduled to work this event</h3>
+        {% else %}
+            <h3>Employees working: </h3>h3>
+            {% if event.num > 0 %}
+                <h2>{{ event.staff1 }}</h2>
+
+            {% if event.num > 1 %}
+                <h2>{{ event.staff2 }}</h2>
+
+            {% if event.num > 1 %}
+                <h2>{{ event.staff3 }}</h2>
+    {% endfor %}
+    {% else %}
+        <h2><em>No events are currently scheduled</em></h2>-->
+
+{% endblock %}
